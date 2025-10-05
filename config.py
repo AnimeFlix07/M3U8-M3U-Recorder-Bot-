@@ -6,23 +6,23 @@ import os
 # ## TELEGRAM CREDENTIALS ##
 # --------------------------------------------------------------------------------
 # Get these from https://my.telegram.org
-API_ID = int(os.environ.get("API_ID", "12345678"))
-API_HASH = os.environ.get("API_HASH", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+API_ID = int(os.environ.get("API_ID", "20093900"))
+API_HASH = os.environ.get("API_HASH", "314286d8af54eda517ff6f3974fd3aad")
 
 # Get this from https://t.me/BotFather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "xxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8421369792:AAGp1-V_5uBPvXKY-b98c1O_sMicslUemfU")
 
 # --------------------------------------------------------------------------------
 # ## BOT OWNER & PERMISSIONS ##
 # --------------------------------------------------------------------------------
 # Your personal user ID. Get via https://t.me/userinfobot
-OWNER_ID = int(os.environ.get("OWNER_ID", "7958067256"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5009476236"))
 
 # --------------------------------------------------------------------------------
 # ## DATABASE & STORAGE ##
 # --------------------------------------------------------------------------------
 # Connection string for your MongoDB Atlas database
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Username:Password@cluster0.a1l08cq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://hdmovie7080:Q3EHYt3z5oc1Af76@cluster0.yrkrelc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Directory to store M3U8 channel list (.json) files
 M3U8_FILES_DIRECTORY = os.environ.get("M3U8_FILES_DIRECTORY", "./m3u8_channels")
@@ -31,13 +31,13 @@ M3U8_FILES_DIRECTORY = os.environ.get("M3U8_FILES_DIRECTORY", "./m3u8_channels")
 # ## CORE BOT SETTINGS ##
 # --------------------------------------------------------------------------------
 # Group where the bot primarily operates and sends notifications
-WORKING_GROUP = int(os.environ.get("WORKING_GROUP", "-100xxxxxxxxxx"))
+WORKING_GROUP = int(os.environ.get("WORKING_GROUP", "-1003150817829"))
 
 # Timezone for displaying dates and times (e.g., "Asia/Kolkata", "UTC")
 TIMEZONE = os.environ.get("TIMEZONE", "Asia/Kolkata")
 
 # Invite link to your group, shown in some messages
-GROUP_LINK = os.environ.get("GROUP_LINK", "https://t.me/+xxxxxxxxxx") # **Replace with your actual group link**
+GROUP_LINK = os.environ.get("GROUP_LINK", "https://t.me/+WlpJFUsDB3gwZTQ1") # **Replace with your actual group link**
 
 # --------------------------------------------------------------------------------
 # ## PERFORMANCE & LIMITS ##
@@ -84,4 +84,5 @@ STATUS_PAGE_SIZE = 10
 # A higher value reduces API spam. Recommended: 20-30 seconds.
 
 PROGRESS_UPDATE_INTERVAL = int(os.environ.get("PROGRESS_UPDATE_INTERVAL", "60"))
+
 
